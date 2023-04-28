@@ -101,3 +101,15 @@
 #prj5Cont {
     background-image: url(02-run-buddy.jpg);
 }
+
+#contactRow {
+    text-align: center;
+}
+
+#contactRow a {
+    color: var(--dark);
+}
+
+#contactRow a:hover {
+    color:var(--light);
+}
