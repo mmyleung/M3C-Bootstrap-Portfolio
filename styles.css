@@ -36,3 +36,68 @@
     position: relative;
     margin-top: 150px;
 }
+
+.titleCont {
+    border-right: 5px solid var(--border) !important;
+    padding:50px 10px;
+    text-align: end;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.titleCont h2 {
+    color:var(--dark);
+}
+
+.sectionCont {
+    min-height: 200px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.workRow {
+    padding: 10px;
+}
+
+.prjCont {
+    min-height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    border: 5px solid var(--light);
+    opacity: 0.6;
+}
+
+.prjCont:hover {
+    opacity: 1;
+}
+
+.prjContTitle {
+    background-color: var(--light);
+    margin-left: -20px;
+    padding: 5px;
+
+}
+
+#prj1Cont {
+    background-image: url(02-portfolio-1.jpg);
+}
+
+#prj2Cont {
+    background-image: url(02-portfolio-2.jpg);
+}
+
+#prj3Cont {
+    background-image: url(02-portfolio-3.jpg);
+}
+
+#prj4Cont {
+    background-image: url(02-portfolio-4.jpg);
+}
+
+#prj5Cont {
+    background-image: url(02-run-buddy.jpg);
+}
