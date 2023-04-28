@@ -8,20 +8,23 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+
     <title>Mina L. Portfolio</title>
   </head>
 
     <!--Nav Bar-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-light" style="background-color:#002301ff;">
-    <a class="navbar-brand" href="#">Mina L.</a>
+  <nav class="navbar custom-navbar navbar-expand-lg navbar-dark bg-light">
+    <a class="navbar-brand custom-navbar-brand" href="#"><h1>Mina L.</h1></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#">About Me<span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link active" href="#">Work</a>
-        <a class="nav-item nav-link active" href="#">Contact</a>
+      <div class="navbar-nav ml-auto custom-navbar-nav">
+        <a class="nav-item nav-link active" href="#about">About Me<span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link active" href="#work">Work</a>
+        <a class="nav-item nav-link active" href="#contact">Contact</a>
       </div>
     </div>
   </nav>
@@ -44,7 +47,7 @@
   <div class="container">
 
     <!--About Me-->
-    <div class="row">
+    <div class="row" id="about">
         <!--About Me Title-->
       <div class="col-sm">
         About Me
@@ -55,7 +58,7 @@
       </div>
     </div>
     <!--Work-->
-    <div class="row">
+    <div class="row" id="work">
         <!--Work Title-->
         <div class="col-sm">
           Work
@@ -76,7 +79,7 @@
         </div>
       </div>
       <!--Contact-->
-      <div class="row">
+      <div class="row" id="contact">
         <div class="col-sm">
           Contact Me
         </div>

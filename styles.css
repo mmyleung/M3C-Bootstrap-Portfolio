@@ -1,0 +1,22 @@
+:root{
+    --dark: #002301ff;
+    --heading: #014A13ff;
+    --light: #21C47Bff;
+    --border: #14A45Cff;
+    }
+
+.custom-navbar {
+    background-color: var(--dark) !important;
+    padding-left: 0px;
+}
+
+.custom-navbar-brand {
+    background-color: var(--light) !important;
+    color:var(--dark) !important;
+    padding-left: 180px;
+    padding-right:30px;
+}
+
+.custom-navbar-nav a {
+    color: var(--light) !important;
+}
