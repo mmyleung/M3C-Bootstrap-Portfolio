@@ -20,3 +20,19 @@
 .custom-navbar-nav a {
     color: var(--light) !important;
 }
+
+.custom-jumbotron {
+    background-image: url(lisa-yount-zcZPjDqG-Ao-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 0px;
+}
+
+.tagline {
+    background-color: var(--light);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: relative;
+    margin-top: 150px;
+}
